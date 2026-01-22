@@ -9,7 +9,7 @@ def binary_search(list, item):
             return mid
         elif guess > item:
             high = mid - 1
-        else: 
+        else:
             low = mid + 1
     return None
 my_list = [2,41,2,43,1,42,3,42,1,42,3,6,5,3,4,6,7,8,5,68]
