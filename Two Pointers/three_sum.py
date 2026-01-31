@@ -10,7 +10,8 @@ class Solution:
                         tmp = [nums[i],nums[j],nums[k]]
                         res.add(tuple(tmp))
         return [list(i) for i in res]
-# Example usage
+# Example usage (Time Complexity: O(n3)too slow) 
 sol = Solution()
 nums = [-1,0,1,2,-1,-4]
 print(sol.threeSum(nums))
+ 
