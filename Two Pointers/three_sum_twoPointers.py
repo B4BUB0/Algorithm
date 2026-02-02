@@ -8,6 +8,7 @@ class Solution:
                 break
             if i > 0 and a == nums[i - 1]: 
                 continue
+            
             left, right = i+1, len(nums) - 1
             while left < right:
                 threeSum = a + nums[left] + nums[right]
