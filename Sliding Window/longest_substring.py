@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 class Solution:
     def longestSubstring(self, s):
         longest = 0
