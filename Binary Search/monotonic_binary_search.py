@@ -1,4 +1,4 @@
-def monotonic_binary_search(arr, target):
+def monotonic_binary_search(arr, target): #Monotonic / Feasible Binary Search (boundary search)
     ### Monotonic / predicate binary search → find the first position where a condition becomes true
     l, r = 0, len(arr) - 1 
     firstT_index = - 1
