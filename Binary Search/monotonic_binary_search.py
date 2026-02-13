@@ -1,4 +1,5 @@
 def monotonic_binary_search(arr, target):
+    ### Monotonic / predicate binary search → find the first position where a condition becomes true
     l, r = 0, len(arr) - 1 
     firstT_index = - 1
     while l <= r:
