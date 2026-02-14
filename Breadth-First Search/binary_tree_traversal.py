@@ -7,6 +7,9 @@ class Node:
         self.right = right
 
     def level_order_traversal(root: Node):
+        if not root:
+            return []
+        
         res = []
         queue = deque([root])
         while len(queue) > 0:
