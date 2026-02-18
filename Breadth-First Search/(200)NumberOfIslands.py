@@ -1,5 +1,5 @@
 class Solution:
-    def numIslands(self, grid: List[List[str]]) -> int:
+    def numIslands(self, grid):
         num_rows = len(grid)
         num_cols = len(grid[0])
 
