@@ -15,4 +15,19 @@ def count_number_of_islands(grid):
         return res
     
     def dfs(coord):
-        
+        r, c = coord
+        if grid[r][c] == 0:
+            return 
+        grid[r][c] = 0
+        for neighbor in get_neighbors(coord):
+            nr, nc = neighbor
+            if grid[nr][nc] == 1:
+                dfs(neighbor)
+    
+    count = 0
+    for r in range(num_rows):
+        for c in range(num_cols):
+            if grid[r][c] == 1:
+                dfs((r, c))
+                count += 1
+    return count 
