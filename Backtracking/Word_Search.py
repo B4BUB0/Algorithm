@@ -1,4 +1,4 @@
-def exist(board, list):
+def exist(board, word):
     def dfs(i, j, word_i):
         if board[i][j] != word[word_i]:
             return False
