@@ -20,7 +20,8 @@ def exist(board, word):
     return False
 
 """Example 1:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
+Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], 
+word = "ABCCED"
 Output: true
 
 Example 2:
