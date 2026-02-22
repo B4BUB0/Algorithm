@@ -25,7 +25,8 @@ word = "ABCCED"
 Output: true
 
 Example 2:
-Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
+Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], 
+word = "SEE"
 Output: true
 
 Example 3:
