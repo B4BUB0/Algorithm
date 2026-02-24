@@ -6,7 +6,7 @@ class Node:
         self.left = left
         self.right = right
 
-    def level_order_traversal(root: Node):
+    def level_order_traversal(root):
         if not root:
             return []
         
