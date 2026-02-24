@@ -34,7 +34,6 @@ class Solution:
         return count
     
 """Example 1:
-
 Input: grid = [
   ["1","1","1","1","0"],
   ["1","1","0","1","0"],
@@ -44,7 +43,6 @@ Input: grid = [
 Output: 1
 
 Example 2:
-
 Input: grid = [
   ["1","1","0","0","0"],
   ["1","1","0","0","0"],
